@@ -143,6 +143,7 @@
 		},
 		"openshiftPassword": {
 			"type": "securestring",
+			"defaultValue": "warsztatyos",
 			"minLength": 1,
 			"metadata": {
 				"description": "Password for OpenShift user to login to OpenShift Console"
@@ -186,6 +187,7 @@
 		},
 		"keyVaultResourceGroup": {
 			"type": "string",
+			"defaultValue": "kluczssh",
 			"minLength": 1,
 			"metadata": {
 				"description": "Resource Group that contains the Key Vault"
@@ -200,6 +202,7 @@
 		},
 		"keyVaultSecret": {
 			"type": "securestring",
+			"defaultValue": "uzytkownik",
 			"minLength": 1,
 			"metadata": {
 				"description": "Key Vault Secret Name that contains the Private Key"
@@ -217,6 +220,7 @@
 		},
 		"aadClientId": {
 			"type": "string",
+			"defaultValue": "deployment",
 			"minLength": 1,
 			"metadata": {
 				"description": "Azure AD Client ID"
@@ -224,6 +228,7 @@
 		},
 		"aadClientSecret": {
 			"type": "securestring",
+			"defaultValue": "warsztatyos",
 			"minLength": 1,
 			"metadata": {
 				"description": "Azure AD Client Secret"
