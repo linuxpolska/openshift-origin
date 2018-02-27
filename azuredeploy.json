@@ -8,11 +8,11 @@
 				"description": "The base URL where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated.",
 				"artifactsBaseUrl": ""
 			},
-			"defaultValue": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master"
+			"defaultValue": "https://raw.githubusercontent.com/linuxpolska/warsztatyAzureOpenShift/master"
 		},
 		"masterVmSize": {
 			"type": "string",
-			"defaultValue": "Standard_DS3_v2",
+			"defaultValue": "Standard_DS2_v2",
 			"allowedValues": [
 				"Standard_A4", "Standard_A5", "Standard_A6", "Standard_A7", "Standard_A8", "Standard_A9", "Standard_A10", "Standard_A11",
 				"Standard_D1", "Standard_D2", "Standard_D3", "Standard_D4",
@@ -36,7 +36,7 @@
 		},
 		"nodeVmSize": {
 			"type": "string",
-			"defaultValue": "Standard_DS3_v2",
+			"defaultValue": "Standard_DS2_v2",
 			"allowedValues": [
 				"Standard_A4", "Standard_A5", "Standard_A6", "Standard_A7", "Standard_A8", "Standard_A9", "Standard_A10", "Standard_A11",
 				"Standard_D1", "Standard_D2", "Standard_D3", "Standard_D4",
@@ -60,7 +60,7 @@
 		},
 		"infraVmSize": {
 			"type": "string",
-			"defaultValue": "Standard_DS3_v2",
+			"defaultValue": "Standard_DS2_v2",
 			"allowedValues": [
 				"Standard_A4", "Standard_A5", "Standard_A6", "Standard_A7", "Standard_A8", "Standard_A9", "Standard_A10", "Standard_A11",
 				"Standard_D1", "Standard_D2", "Standard_D3", "Standard_D4",
@@ -101,16 +101,16 @@
 		},
 		"masterInstanceCount": {
 			"type": "int",
-			"defaultValue": 3,
-			"allowedValues": [3, 5],
+			"defaultValue": 1,
+			"allowedValues": [1, 3, 5],
 			"metadata": {
 				"description": "Number of OpenShift masters."
 			}
 		},
 		"infraInstanceCount": {
 			"type": "int",
-			"defaultValue": 2,
-			"allowedValues": [2, 3],
+			"defaultValue": 1,
+			"allowedValues": [1, 2, 3],
 			"metadata": {
 				"description": "Number of OpenShift infra nodes."
 			}

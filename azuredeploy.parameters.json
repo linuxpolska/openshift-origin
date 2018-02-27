@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master/"
+			"value": "https://raw.githubusercontent.com/linuxpolska/warsztatyAzureOpenShift/master/"
 		},
 		"masterVmSize": {
 			"value": "Standard_DS2_v2"
@@ -21,13 +21,13 @@
 			"value": "changeme"
 		},
 		"masterInstanceCount": {
-			"value": 3
+			"value": 1
 		},
 		"infraInstanceCount": {
-			"value": 2
+			"value": 1
 		},
 		"nodeInstanceCount": {
-			"value": 1
+			"value": 2
 		},
 		"dataDiskSize": {
 			"value": 128
@@ -36,37 +36,37 @@
 			"value": "changeme"
 		},
 		"openshiftPassword": {
-			"value": "changeme"
+			"value": "warsztatyos"
 		},
 		"enableMetrics": {
-			"value": "false"
+			"value": "true"
 		},
 		"enableLogging": {
-			"value": "false"
+			"value": "true"
 		},
 		"enableCockpit": {
-			"value": "false"
+			"value": "true"
 		},
 		"sshPublicKey": {
 			"value": "changeme"
 		},
 		"keyVaultResourceGroup": {
-			"value": "changeme"
+			"value": "kluczessh"
 		},
 		"keyVaultName": {
 			"value": "changeme"
 		},
 		"keyVaultSecret": {
-			"value": "changeme"
+			"value": "uzytkownik"
 		},
 		"enableAzure": {
 			"value": "false"
 		},
 		"aadClientId": {
-			"value": "changeme"
+			"value": "deployment"
 		},
 		"aadClientSecret": {
-			"value": "changeme"
+			"value": "warsztatyos"
 		},
 		"defaultSubDomainType": {
 			"value": "nipio"
