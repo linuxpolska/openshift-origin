@@ -64,7 +64,7 @@ Add "service principal" and assign to ocplinuxpolska groupp
 * az ad sp create-for-rbac -n deployment -p 'warsztatyos' --role contributor --scopes /subscriptions/**twoje-unikalne-subscription-id**/resourceGroups/ocplinuxpolska
 
 
-## Deploy Template
+# Deploy Template
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Flinuxpolska%2FwarsztatyAzureOpenShift%2Fmaster%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
 <a href="https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2linuxpolska%2FwarsztatyAzureOpenShift%2Fmaster%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/AzureGov.png"/></a>
