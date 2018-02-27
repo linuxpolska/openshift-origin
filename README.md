@@ -1,7 +1,5 @@
 # OpenShift Origin Deployment Template
 
-## NOTE: Structural change to Repo
-
 This template deploys OpenShift Origin with basic username / password for authentication to OpenShift. This uses CentOS and includes the following resources:
 
 |Resource           |Properties                                                                                                                          |
@@ -18,12 +16,12 @@ This template deploys OpenShift Origin with basic username / password for authen
 
 If you have a Red Hat subscription and would like to deploy an OpenShift Container Platform (formerly OpenShift Enterprise) cluster, please visit: https://github.com/Microsoft/openshift-container-platform
 
-## General prerequisites
+# General prerequisites
 
 * Administrator rights
 * Open ports: 80, 443, 8443, 2200
 
-## Other thing
+#### Other thing
 
 * Docker on local OS: https://www.docker.com/community-edition#/download
 * Azure CLI 2.0: https://azure.github.io/projects/clis/
@@ -38,15 +36,15 @@ If you have a Red Hat subscription and would like to deploy an OpenShift Contain
     * Azure CLI Tools https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli
     * NuGet Package Manager https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager
 
-### Create a new Azure Active Directory tenant
+## Create a new Azure Active Directory tenant
 
 https://account.azure.com/organization
 
-### Add Azure Pass
+## Add Azure Pass
 
 https://www.microsoftazurepass.com
 
-## Quick deployment in few steps
+# Quick deployment in few steps
 
 ### Cloud Shell
 
